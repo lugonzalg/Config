@@ -105,6 +105,7 @@ alias d="docker"
 alias v="nvim"
 alias pdf="evince"
 alias cc="gcc -Wall -Werror -Wextra -fsanitize=address -g3"
+alias ccn="gcc -g3"
 alias cpp="clang++ -Wall -Werror -Wextra -fsanitize=address -g3"
 alias language="/home/lukas/MyProjects/Toolkit/language.sh"
 alias res="/home/lukas/MyProjects/Toolkit/resolution.sh"
@@ -116,4 +117,19 @@ function ft_dfl() {
 alias dfl=ft_dfl
 
 alias cmain="/home/lukas/MyProjects/Toolkit/Cmain.sh"
+alias mk="/home/lukas/MyProjects/Toolkit/CMake.sh"
 alias pmain="/home/lukas/MyProjects/Toolkit/Pmain.sh"
+alias br="/home/lukas/MyProjects/Toolkit/bright.sh"
+alias shs="/home/lukas/MyProjects/Toolkit/connect.sh"
+alias res_net="/home/lukas/MyProjects/Toolkit/network.sh"
+alias list="echo \"language
+res
+dfl
+cmain
+pmain
+br
+shs
+res_net
+mk
+network\"
+"

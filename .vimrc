@@ -5,11 +5,6 @@ set autoindent
 " set tabs to have 4 spaces
 set ts=4
 
-" indent when moving to the next line while writing code
-set autoindent
-
-" expand tabs into spaces
-
 " when using the >> or << commands, shift lines by 4 spaces
 set shiftwidth=4
 
